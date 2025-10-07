@@ -255,6 +255,14 @@ publishing {
 - Integrates with Gradle's software component system (`components.java`)
 - Supports various authentication methods including Docker credentials and environment variables
 
+## Release Process
+
+1. Update the `VERSION` file with a semantic version.
+2. Update the README with the new version number.
+3. Update the `changelog.txt file with changes against previous release. Use `git log --oneline v<PREVIOUS VERSION>..HEAD` to determine the changes to be added.
+4. Commit VERSION and changelog.txt file adding the tag `[release]` in the commit comment first line.
+5. Git push to upstream master branch.
+
 ## Authentication Support
 
 ### Docker Distribution Compliance
