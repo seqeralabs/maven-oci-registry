@@ -1,0 +1,12 @@
+Version 0.2.2
+- Fix spurious POM file warning during configuration phase
+- Add release process documentation to CLAUDE.md
+
+Version 0.2.1
+- Add GSON patcher for ORAS SDK TokenResponse deserialization
+
+Version 0.2.0
+- Implement Configuration Cache compatible Extension-based architecture
+- Add persistent local caching for OCI artifact resolution
+- Add full Maven POM artifact support to OCI publishing
+- Implement HTTP proxy architecture for OCI repository resolution
